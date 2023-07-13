@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_schnickSchnackSchnuck</title>
+    <script defer src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Schnick Schnack Schnuck</h1>
+    </header>
+    <main>
+        <section class="game_rounds">
+            <h1>How many rounds?</h1>
+            <div class="output_rounds"></div>
+            <div>
+                <label for="">Five Rounds</label>
+                <input type="radio" name="rounds" id="five-rounds" value="5">
+                <label for="">Ten Rounds</label>
+                <input type="radio" name="rounds" id="ten_rounds" value="10">
+                <label for="">Fifteen Rounds</label>
+                <input type="radio" name="rounds" id="fifteen_rounds" value="15">
+                <label for="">Twenty Rounds</label>
+                <input type="radio" name="rounds" id="twenty_rounds" value="20">
+                <button type="button" id="btn">Spielen</button>
+            </div>
+        </section>
+        <section>
+            <div class="output_current_round_winner"></div>
+            <div class="game_play">
+                <button type="button" value="1" id="rock">Rock</button>
+                <button type="button" value="2" id="paper">Paper</button>
+                <button type="button" value="3" id="scissors">Scissors</button>            
+            </div>
+        </section>
+    </main>
+</body>
+</html>
